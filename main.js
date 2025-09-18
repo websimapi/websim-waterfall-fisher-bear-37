@@ -166,7 +166,6 @@ function setupStartScreen() {
 setupStartScreen();
 
 startButton.addEventListener('click', startGame);
-restartButton.addEventListener('click', startGame);
 wireAudioUnlock(initAudio);
 
 function getFishToSpawn() {
